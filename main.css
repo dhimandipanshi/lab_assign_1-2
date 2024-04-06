@@ -1,14 +1,20 @@
 /* Reset default browser styles */
-body, h1, h2, p, ul, li {
+body, h1, h2, h4, ul, li {
     margin: 0;
     padding: 0;
 }
-
-/* Set body font and background color */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-image: url('3_labassign.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(245, 238, 238); /* Set text color to contrast with the background image */
+    font: size 20px;
 }
+
+
 
 /* Header styles */
 header {

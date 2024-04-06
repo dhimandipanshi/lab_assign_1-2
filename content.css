@@ -1,0 +1,121 @@
+/* Reset default browser styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333; /* Text color */
+}
+
+/* Header styles */
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Change the color on hover */
+}
+
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 
+}
+/* Image gallery styles */
+
+/* Image collage styles */
+.image-gallery {
+    text-align: center; /* Align images in the center */
+}
+
+.image-gallery img {
+    display: inline-block; /* Display images in a horizontal line */
+    width: 250px; /* Set width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add spacing between images */
+    border: 2px solid #333; /* Add border to create photo frames */
+    border-radius: 5px; /* Round corners of the frames */
+}
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Header row styles */
+th[rowspan="2"] {
+    text-align: center;
+}
+
+/* Description column styles */
+td:nth-child(3),
+th:nth-child(3) {
+    width: 30%;
+}
+
+/* Benefits column styles */
+td:nth-child(4),
+th:nth-child(4) {
+    width: 30%;
+}
+
+/* Price column styles */
+td:nth-child(5),
+th:nth-child(5) {
+    text-align: center;
+}
+
+/* Service name styles */
+td[rowspan="2"],
+td[colspan="2"] {
+    font-weight: bold;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
