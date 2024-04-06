@@ -7,12 +7,14 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('3_labassign.jpg'); /* Replace 'background.jpg' with the path to your image */
+    z-index: 0;
     background-size: cover;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(245, 238, 238); /* Set text color to contrast with the background image */
+    color: white; /* Set text color to contrast with the background image */
     font-size: 20px; /* Corrected font size property */
     position: relative; /* Ensure the body is positioned relatively */
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Transparent fade background overlay */
@@ -69,6 +71,8 @@ main {
     padding: 20px;
     margin-top: 20px;
 }
+
+
 
 /* Footer styles */
 footer {
