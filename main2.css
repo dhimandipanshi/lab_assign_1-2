@@ -2,11 +2,27 @@
 body, h1, h2, h4, ul, li {
     margin: 0;
     padding: 0;
+    color:white;
 }
+h1{
+    margin: 0;
+    padding: 0;
+    color:white;
+
+
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-image: url('3_labassign.jpg'); /* Replace 'background.jpg' with the path to your image */
+    opacity: 80;
     background-size: cover;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -65,9 +81,10 @@ main {
 
 /* Photo HTML page section styles */
 .photo-page {
-    background-color: rgba(255, 255, 255, 0.7); /* Adjust background opacity */
+    opacity: 80%;
     padding: 20px;
     margin-top: 20px;
+    
 }
 
 /* Footer styles */
