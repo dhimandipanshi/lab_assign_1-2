@@ -1,7 +1,9 @@
+
 /* Reset default browser styles */
 body, h1, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 /* Set body font and background color */
@@ -46,15 +48,15 @@ nav ul li a:hover {
     color: #ffc107; /* Change the color on hover */
 }
 
-
 /* Main content styles */
 main {
     padding: 20px;
 }
 
 h1 {
-    margin-bottom: 
+    margin-bottom: 20px; /* Add a margin-bottom value */
 }
+
 /* Image gallery styles */
 
 /* Image collage styles */
@@ -70,16 +72,12 @@ h1 {
     border: 2px solid #333; /* Add border to create photo frames */
     border-radius: 5px; /* Round corners of the frames */
 }
+
 /* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
-}
-/* Table styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 20px; /* Move this line down to maintain consistency */
 }
 
 th, td {
@@ -89,6 +87,7 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+    text-align: left; /* Adjust text alignment */
 }
 
 /* Header row styles */
@@ -116,21 +115,72 @@ th:nth-child(5) {
 
 /* Service name styles */
 td[rowspan="2"],
-td[colspan="2"] {
-    font-weight: bold;
-}
+td[colspan="2"]
 
 /* Alternate row background color */
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
+<<<<<<< HEAD
+=======
 /* Footer styles */
+>>>>>>> bb24e2a0ee84c0e0e28d5566b14e0bbfd2fc5441
 footer {
     background-color: rgba(51, 51, 51, 0.7); /* Adjust background opacity */
     color: #fff;
     text-align: center;
     padding: 10px;
+<<<<<<< HEAD
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+/* CSS for About Me Section */
+.info-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Center items vertically */
+}
+
+.info {
+    flex: 1; /* Take up remaining space */
+}
+
+.profile-picture {
+    width: 150px; /* Adjust the size of the circle */
+    height: 150px; /* Adjust the size of the circle */
+    overflow: hidden; /* Ensure the image stays within the circle */
+    border-radius: 50%; /* Create a circular shape */
+    border: 3px solid #fff; /* Optional: Add a border */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image fill the circle */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space under the image */
+    border-radius: 50%; /* Ensure the image inside the circle is also circular */
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+    .info-container {
+        flex-direction: row; /* Display items side by side on larger screens */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .info {
+        margin-right: 20px; /* Add some spacing between text and image */
+    }
+
+    .profile-picture {
+        margin-left: 20px; /* Add some spacing between text and image */
+    }
+}
+=======
+    bottom: 0;
+    width: 100%;
+}
+>>>>>>> bb24e2a0ee84c0e0e28d5566b14e0bbfd2fc5441
